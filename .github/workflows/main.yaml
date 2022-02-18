@@ -1,0 +1,14 @@
+name: Run Self
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    name: Run Self
+    steps:
+      - name: Run gha-branch-tag
+        uses: alehechka/gha-branch-tag
