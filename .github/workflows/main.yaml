@@ -11,4 +11,4 @@ jobs:
     name: Run Self
     steps:
       - name: Run gha-branch-tag
-        uses: alehechka/gha-branch-tag
+        uses: alehechka/gha-branch-tag@main
